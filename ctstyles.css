@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    text-align: center;
+
+}
+
+.elegir {
+    background-color: rgb(10, 103, 131);
+    padding: 2rem;
+}
+
+h3,
+label,
+select,
+input {
+    color: whitesmoke;
+}
+
+h3 {
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+label {
+    margin: 2rem;
+    margin-right: 0.2rem;
+    display: inline;
+}
+
+input,
+select {
+
+    background-color: transparent;
+    border: 1.2px solid whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select {
+    font-size: 1.5rem;
+    display: inline;
+    color: rgb(50, 183, 192);
+}
+
+.opciones,
+.opcion {
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: block;
+    margin: 3rem auto;
+    padding: .3rem 1.2rem;
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    background-color: rgb(43, 144, 175);
+}
+
+.contenedor-texto {
+    background-color: rgb(85, 175, 182);
+    padding: 5rem;
+}
+
+
+.mensaje {
+    margin: 4rem;
+    font-size: 5rem;
+    text-align: center;
+}
